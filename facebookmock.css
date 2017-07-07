@@ -44,7 +44,6 @@ main{
     line-height: 5%;
     margin: -10px 0;
 }
-
 .friendfeed{
     display: flex;
     flex-direction: column;
@@ -54,37 +53,18 @@ main{
 .ffcontent{
     display: flex;
     flex-direction: row;
+    text-align: left;
+    font-size: 15px;
+
+}
+.addword{
+    /*margin-top: 7%;*/
 }
 .newsfeed{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
     width: 70%;
-}
-.fav div{
-    display: flex;
-    flex-direction:column;
-    font-size: 10px;
-}
-.ad div{
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
-}
-.pages div{
-    display:flex;
-    flex-direction: column;
-    font-size: 10px;
-}
-.apps div{
-    display: flex;
-    flex-direction: colum;
-    font-size: 10px;
-}
-.events div{
-    display: flex;
-    flex-direction: column;
-    font-size: 10px;
 }
 .ads{
     display: flex;
@@ -113,6 +93,19 @@ main{
 }
 .news{
     width:80%;
+}
+.picture{
+    width: 40%;
+    align-content: center;
+    margin-top: -9%;
+}
+.picture img{
+    margin-top: 20%;
+    width: 100%;
+    object-fit: cover;
+}
+.addword{
+    width:60%;
 }
 main div div{
     border: 1px solid grey;
