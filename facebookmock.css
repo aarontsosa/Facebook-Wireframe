@@ -44,6 +44,19 @@ main{
     flex-direction: colum;
     font-size: 10px;
 }
+.events div{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.ads{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+.ads div{
+    width:50%;
+}
 main div div{
     border: 1px solid grey;
 }
