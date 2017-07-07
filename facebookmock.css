@@ -57,6 +57,15 @@ main{
 .ads div{
     width:50%;
 }
+.extrastat{
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+    width: 100%
+}
+.extrastat div{
+    width: 20%
+}
 main div div{
     border: 1px solid grey;
 }
