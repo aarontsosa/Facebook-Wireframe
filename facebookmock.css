@@ -1,10 +1,11 @@
 main{
     display:flex;
-    justify-content: space-between;
+    /*justify-content: space-between;*/
     font-family: sans-serif;
     border: 1px solid grey;
     height: 100%;
     min-height: 900px;
+    flex-wrap: nowrap;
 }
 .nav{
     display: flex;
@@ -65,6 +66,17 @@ main{
 }
 .extrastat div{
     width: 20%
+}
+.post{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.friendphoto{
+    width:20%;
+}
+.news{
+    width:80%;
 }
 main div div{
     border: 1px solid grey;
