@@ -18,6 +18,7 @@ main{
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
+    margin-bottom: 10%;
 }
 .userpic{
     width: 30%;
@@ -29,15 +30,19 @@ main{
 .username{
     width: 70%;
     margin-left: 5%;
+    font-size: 20px;
 }
 .listh{
     padding-left: 10%;
+    margin-bottom: 10%;
+    line-height: 5%;
 }
 .listh div{
     padding-left: 10%;
     display: flex;
     flex-direction:column;
-    font-size: 10px;
+    line-height: 5%;
+    margin-top: -2%;
 }
 .fftitle{
     font-weight: bold;
@@ -109,9 +114,9 @@ main{
 .addword{
     width:60%;
 }
-main div div{
+/*main div div{
     border: 1px solid grey;
 }
 main div div div{
     border: 1px solid grey;
-}
+}*/
