@@ -7,6 +7,7 @@ main{
 .nav{
     display: flex;
     flex-direction: column;
+    flex-grow: 0;
     border: 1px solid grey;
 }
 .friendfeed{
@@ -19,6 +20,13 @@ main{
     flex-direction: column;
     border: 1px solid grey;
 }
+.fav{
+    display: flex;
+    flex-direction:column;
+}
 main div div{
+    border: 1px solid grey;
+}
+main div div div{
     border: 1px solid grey;
 }
