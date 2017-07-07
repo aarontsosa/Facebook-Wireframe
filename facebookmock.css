@@ -29,6 +29,30 @@ main{
 .username{
     width: 70%;
 }
+.fav{
+    padding-left: 10%;
+}
+.fav div{
+    padding-left: 10%;
+}
+.ad{
+    padding-left: 10%;
+}
+.ad div{
+    padding-left: 10%;
+}
+.pages{
+    padding-left: 10%;
+}
+.pages div{
+    padding-left: 10%;
+}
+.apps{
+    padding-left: 10%;
+}
+.apps div{
+    padding-left: 10%
+}
 .friendfeed{
     display: flex;
     flex-direction: column;
