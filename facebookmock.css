@@ -2,16 +2,23 @@ main{
     display:flex;
     justify-content: space-around;
     font-family: sans-serif;
+    border: 1px solid grey;
 }
 .nav{
     display: flex;
     flex-direction: column;
+    border: 1px solid grey;
 }
 .friendfeed{
     display: flex;
     flex-direction: column;
+    border: 1px solid grey;
 }
 .newsfeed{
     display: flex;
     flex-direction: column;
+    border: 1px solid grey;
+}
+main div div{
+    border: 1px solid grey;
 }
