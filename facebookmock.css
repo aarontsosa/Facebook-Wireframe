@@ -4,6 +4,14 @@ main{
     font-family: sans-serif;
 }
 .nav{
-    display:flex;
-    flex-direction: row;
+    display: flex;
+    flex-direction: column;
+}
+.friendfeed{
+    display: flex;
+    flex-direction: column;
+}
+.newsfeed{
+    display: flex;
+    flex-direction: column;
 }
