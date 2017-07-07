@@ -11,7 +11,7 @@ main{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
-    width: 25%;
+    width: 15%;
 }
 .user{
     display:flex;
@@ -20,7 +20,7 @@ main{
     width: 100%;
 }
 .userpic{
-    width: 20%;
+    width: 30%;
 }
 .userpic img{
     width: 100%;
@@ -28,36 +28,28 @@ main{
 }
 .username{
     width: 70%;
+    margin-left: 5%;
 }
-.fav{
+.listh{
     padding-left: 10%;
 }
-.fav div{
+.listh div{
     padding-left: 10%;
+    display: flex;
+    flex-direction:column;
+    font-size: 10px;
 }
-.ad{
-    padding-left: 10%;
+.fftitle{
+    font-weight: bold;
+    line-height: 5%;
+    margin: -10px 0;
 }
-.ad div{
-    padding-left: 10%;
-}
-.pages{
-    padding-left: 10%;
-}
-.pages div{
-    padding-left: 10%;
-}
-.apps{
-    padding-left: 10%;
-}
-.apps div{
-    padding-left: 10%
-}
+
 .friendfeed{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
-    width: 25%;
+    width: 15%;
 }
 .ffcontent{
     display: flex;
@@ -67,7 +59,7 @@ main{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
-    width: 50%;
+    width: 70%;
 }
 .fav div{
     display: flex;
