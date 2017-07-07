@@ -1,0 +1,9 @@
+main{
+    display:flex;
+    justify-content: space-around;
+    font-family: sans-serif;
+}
+.nav{
+    display:flex;
+    flex-direction: row;
+}
