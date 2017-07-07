@@ -1,28 +1,48 @@
 main{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     font-family: sans-serif;
     border: 1px solid grey;
+    height: 100%;
+    min-height: 900px;
 }
 .nav{
     display: flex;
     flex-direction: column;
-    flex-grow: 0;
     border: 1px solid grey;
+    width: 25%;
 }
 .friendfeed{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
+    width: 25%;
 }
 .newsfeed{
     display: flex;
     flex-direction: column;
     border: 1px solid grey;
+    width: 50%;
 }
-.fav{
+.fav div{
     display: flex;
     flex-direction:column;
+    font-size: 10px;
+}
+.ad div{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.pages div{
+    display:flex;
+    flex-direction: column;
+    font-size: 10px;
+}
+.apps div{
+    display: flex;
+    flex-direction: colum;
+    font-size: 10px;
 }
 main div div{
     border: 1px solid grey;
