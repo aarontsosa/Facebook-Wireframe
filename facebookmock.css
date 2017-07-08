@@ -135,6 +135,10 @@ main{
     width: 100%;
     object-fit: cover;
 }
+.picchange img{
+    width:115%;
+    object-fit: cover;
+}
 .addword{
     width:60%;
 }
