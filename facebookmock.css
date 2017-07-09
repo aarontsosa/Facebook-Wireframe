@@ -1,5 +1,5 @@
 html{
-    font-family: 10px;
+    font-size: 10px;
 }
 main{
     display:flex;
@@ -99,6 +99,7 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    border-bottom: .2rem solid grey;
 }
 .friendphoto{
     width:20%;
@@ -120,6 +121,7 @@ main{
     display: flex;
     flex-direction: row;
     width: 100%;
+    padding-bottom: 2rem;
 }
 .share, .commentbtn, .like{
     padding-left: 1rem;
@@ -144,6 +146,7 @@ main{
 }
 .statinput{
     padding-bottom: 2rem;
+    padding-left: 2rem;
 }
 .statinput input{
     width: 95%;
